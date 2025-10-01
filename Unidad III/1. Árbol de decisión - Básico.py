@@ -99,6 +99,7 @@ print(cm)
 # - Precision: De todas las veces que el modelo predijo una clase, ¿cuántas acertó?
 # - Recall (Sensibilidad): De todas las instancias reales de una clase, ¿cuántas identificó correctamente el modelo?
 # - F1-score: Es la media armónica de precision y recall.
+# - Support: # de ocurrencias reales de cada clase en el conjunto de datos de prueba
 print("\nReporte de Clasificación:")
 print(classification_report(y_test, y_pred, target_names=iris.target_names))
 
